@@ -1,0 +1,230 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+<body>
+   <nav>
+     <li class="nav"><a href="event/index.html"> Home </a></li>
+  
+     </nav>
+  <br>
+  <br>
+  <br>
+  <div class="wrapper">
+<div class="A"> <center> <img src="https://github.com/WVCS/index-Dinuguan-gif/blob/main/LOGOEVENT.png?raw=true"> </center> </div>
+    
+    
+<div class="B"><center>Gilbert's Seasonal Farmers Market</center></div>
+    <div class="C"> <center> <h1> Vendors </h1> 
+      <h3> Dexter's Donuts </h3>
+      <h3> Marie's Pies </h3>
+      <h3> Terrie's Berry Shop </h3>
+      <h3> Smellin' Roses </h3>
+      <h3> Guapo's Guac </h3>
+      <h3> Da Koko Nut </h3>
+      <h3> Chesters Cheese </h3>
+      <h3> and More! </h3>
+
+      </center></div> 
+<div class="D"> <center>
+  <img src="https://github.com/WVCS/index-Dinuguan-gif/blob/main/Cool.png?raw=true" width=800px>
+  </div>
+    <div class="E"> <center> <h1> Where? </h1>
+      <h3>335 Argyle St.
+Lockport, NY 14094 </h3>
+      <h3>8003 Glenholme Drive
+Severn, MD 21144 </h3>
+       <h3>9212 6th Lane
+Suwanee, GA 30024 </h3>
+       <h3>64 Smith Store Ave.
+Dawsonville, GA 30534 </h3>
+       <h3> 76 Redwood Street
+Jackson Heights, NY 11372 </h3>
+       <h3> 3 Coffee St.
+Westmont, IL 60559 </h3>
+</center></div>
+    <div class="F"><center><h1> Who we are </h1>
+      <h3> We are a collection of people who love to do what we do. We are willing to share our passion through our produce and products. </h3>
+    </center></div>
+
+</div>
+</body>
+</html>
+
+<style>
+.wrapper {
+  display: grid;
+  height: 90vh;
+  grid-template: 
+    "A B C" auto
+    "D E F" auto
+    "G H I" auto;
+
+  grid-template-columns: auto auto;
+  grid-row-gap: 50px;
+  
+  
+}
+  div {
+  background-color: Lavender;
+  Border: inset 1px purple;
+  
+}
+
+.A {
+  grid-column: 1;
+  grid-row: 1;
+  height: 7hv;
+  width: auto;
+}
+.B {
+  grid-column: 2/4;
+  grid-row: 1;
+  font-size: 8em;
+  height: 7hv;
+  width: auto;
+}
+
+
+.C {
+  grid-column: 1;
+  grid-row: 2;
+  height: 7hv;
+  width: auto;
+}
+.D {
+  grid-column: 2;
+  grid-row: 2;
+height: 7hv;
+  width: auto;
+}
+.E {
+  grid-column: 3;
+  grid-row: 2;
+  height: 7hv;
+  width: auto;
+}
+.F {
+  grid-column: 1/4;
+  height: 7hv;
+  width: auto;
+}
+nav {
+  list-style-type: none;
+  position: fixed;
+  background-color: lavender;
+  width: 100%;
+  left: 0;
+  top: 0;
+  
+}
+nav {
+  font-family: "papyrus", Times, serif;
+}
+
+.nav {
+  display: inline;
+  float: left;
+  padding: 10px;
+}
+.nav a:hover {
+  background-color: #93E9BE;
+}
+body {
+  background-color: lightblue;
+}
+
+/* row line/ column line/ end row/ end column */
+
+@media only screen and (max-width: 768px) {
+  .wrapper{ 
+    flex-direction: column;}
+  
+  .wrapper {
+     width: 100%;
+  height: 600vh;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  }
+   div {
+  background-color: Black;
+  Border: inset 0px purple;
+  
+}
+
+.A {
+  height: 200vh;
+ width: 400px;
+  background-color: White;
+  grid-column: 1;
+}
+.B {
+ height: 200vh;
+  width: 400px;
+  background-color: White;
+  grid-column: 2;
+  font-size: 3em;
+}
+
+
+.C {
+  height: 200vh;
+ max-width: 400px;
+  grid-column: 3;
+  background-color: White;
+  font-size: 2em;
+}
+.D {
+ height: 200vh;
+ width: auto;
+  grid-column: 4;
+  background-color: White;
+
+}
+.E {
+ height: 200vh;
+ max-width: 100%;
+  grid-column: 5;
+  background-color: White;
+}
+.F {
+ 
+  height:200vh;
+ max-width: 100%;
+  grid-column: 6;
+  background-color: White;
+}
+nav {
+  list-style-type: none;
+  position: fixed;
+  background-color: white;
+  width: 100%;
+  left: 0;
+  top: 0;
+  
+}
+nav {
+  font-family: "papyrus", Times, serif;
+}
+img {
+  max-height: 100%;
+  height: 60vh;
+}
+
+.nav {
+  display: inline;
+  float: left;
+  padding: 10px;
+}
+
+}
+body {
+  background-color: black;
+}
+
+</style>
